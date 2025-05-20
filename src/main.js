@@ -20,7 +20,7 @@ Vue.prototype.esriLoader.setDefaultOptions({
     url: window.mapConfig.jsapiUrl,
     css: window.mapConfig.cssUrl
 })
-
+//test
 router.beforeEach((to, from, next) => {
     let user = JSON.parse(sessionStorage.getItem('user'));
     if (!user && to.name !== "login") {
