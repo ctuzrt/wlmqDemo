@@ -10,6 +10,7 @@ module.exports = {
     https: false,
     hotOnly: false,
     hot: true, // 开启热更新
+	//mcp测试2
     proxy: "",
     // {
     //     "/api": {
